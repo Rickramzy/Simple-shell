@@ -31,6 +31,8 @@ int _myexit(info_t *info)
 /**
  * _mycd - This  changes the current directory of the process
  * @info: The structure containing potential arguments.
+ * _getenv: searches the environment
+ * _setenv: sets the environment
  *
  *  Return: Always 0
  */

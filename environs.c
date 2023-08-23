@@ -36,7 +36,7 @@ char *_getenv(info_t *info, const char *name)
 
 
 /**
- * _mysetenv -this initialize a new environment variable,
+ * _mysetenv - this initialize a new environment variable,
  *             or modify an existing one
  * @info: Structure containing potential arguments.
  *
@@ -78,7 +78,7 @@ int _myunsetenv(info_t *info)
 /**
  * populate_env_list - populates env linked list
  * @info: Structure containing potential arguments.
- * 
+ *
  * Return: Always 0
  */
 int populate_env_list(info_t *info)
